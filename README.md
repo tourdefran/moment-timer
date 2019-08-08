@@ -71,6 +71,15 @@ Setting this attribute to true will cause the callback function to be called aft
 
 ---
 
+### (bool) resume
+```js
+new moment.duration(1000).timer({ resume: true }, callback);
+```
+Setting this attribute to true the leftover duration will be executed. False by default.
+
+---
+
+
 ## Functions
 ### .start()
 ```js
